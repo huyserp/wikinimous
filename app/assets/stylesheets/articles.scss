@@ -1,3 +1,47 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+h1 {
+  font-family: 'Source Code Pro', monospace;
+  margin-bottom: 24px;
+  letter-spacing: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 16px;
+  font-wieght: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: #222831;
+  &:hover {
+    color: #f05454;
+  }
+}
+
+i {
+  color: rgba(0,0,0,.6);
+  margin: 0 12px;
+}
+
